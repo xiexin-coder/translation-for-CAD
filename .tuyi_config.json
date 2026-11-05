@@ -1,0 +1,13 @@
+{
+  "deepl_key": "8f944e33-318b-4d89-ac08-aebac4a4224d:fx",
+  "provider": "ollama",
+  "azure_key": "",
+  "azure_region": "",
+  "output_dir": "D:\\soft\\图译输出",
+  "project_package_path": "",
+  "openai_key": "sk-05a407b334be481f98a34509bba0089b",
+  "openai_base": "​ https://api.deepseek.com/v1",
+  "openai_model": "deepseek-flash",
+  "ollama_host": "http://127.0.0.1:11434",
+  "ollama_model": "qwen2.5:7b"
+}

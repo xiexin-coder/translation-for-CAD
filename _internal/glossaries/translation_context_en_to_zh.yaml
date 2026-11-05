@@ -1,0 +1,62 @@
+context_en_to_zh:
+  ceiling: 天花
+  suspended ceiling: 吊顶
+  reflected ceiling plan: 天花图
+  floor plan: 平面布置图
+  partition location plan: 隔墙定位图
+  floor slab: 楼板
+  steel plate: 钢板
+  wall: 墙
+  shear wall: 剪力墙
+  beam: 梁
+  steel beam: 钢梁
+  column: 柱
+  foundation: 基础
+  isolated footing: 独立基础
+  elevation: 标高
+  grid line: 轴线
+  stair: 楼梯
+  guardrail: 栏杆
+  cable tray: 桥架
+  cable trunking: 线槽
+  air duct: 风管
+  air grille: 风口
+  outdoor air: 新风
+  power supply: 供电
+  electrical power supply: 电源供电
+  main power supply: 总电源
+  emergency power supply: 应急电源
+  water supply: 供水
+  cold water supply: 冷水供水
+  hot water supply: 热水供水
+  potable water supply: 生活给水
+  fresh air handling unit: 新风机
+  exhaust air: 排风
+  smoke extraction: 排烟
+  distribution board: 配电箱
+  grounding: 接地
+  sleeve: 套管
+  reserved opening: 预留洞
+  wall reservation: 墙体预留洞
+  slab reservation: 楼板预留洞
+  opening: 开洞
+  wall opening: 墙体开洞
+  floor opening: 楼板开洞
+  stair opening: 楼梯洞口
+  door opening: 门洞
+  window opening: 窗洞
+  door: 门
+  window: 窗
+  French window: 落地窗
+  lintel: 过梁
+  thermal insulation: 保温
+  service shaft: 管道井
+  plumbing: 给排水
+  fire protection: 消防
+  air conditioning: 空调
+  fan: 风机
+  fan coil unit: 风机盘管
+  water pump: 水泵
+  installation height: 安装高度
+  wall demolition plan: 墙体拆除图
+  bill of materials: 材料表

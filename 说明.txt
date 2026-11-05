@@ -1,0 +1,29 @@
+图译（Tuyi）— 目录说明
+更新：2026-10-29
+
+【日常使用】
+Tuyi.exe          主程序。双击、从聊天窗口或文件卡片打开都可以。
+图译输出\         受限权限启动时，保存的图纸/PDF 会自动放到这里。
+
+【不要删除】
+_internal\                       程序运行库，缺了程序打不开。
+.tuyi_config.json                设置（DeepL Key、输出目录等）。
+.tuyi_language_assets.sqlite3    术语库和翻译记忆。
+fuzzy_config.json                术语模糊匹配开关。
+Tuyi.original.exe                原始版程序，重新打包时的基底。
+_patch\                          补丁脚本，软件更新覆盖 Tuyi.exe 后用它重新打包。
+
+【输出位置】
+- 正常权限启动：保存到设置里的输出目录（默认 Downloads）。
+- 受限权限启动（从聊天窗口或文件卡片打开）：自动改到 D:\soft\图译输出，
+  界面日志里会提示，不会再报“文件保存失败”。
+
+【软件更新后重新打补丁】
+1. 完全退出图译；
+2. 把更新后的 Tuyi.exe 复制一份改名为 Tuyi.original.exe（保留新版作为基底）；
+3. 在 D:\soft 打开命令行执行：
+   C:\Users\zsh\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe _patch\patch_all.py Tuyi.original.exe Tuyi.exe
+   （如果找不到这个 Python，把命令里的 python.exe 换成系统里任意 Python 3.12）
+
+【诊断】
+程序运行时会生成 诊断日志.txt，用于排查问题；平时可以删除，下次运行会重新生成。
